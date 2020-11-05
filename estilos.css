@@ -1,4 +1,63 @@
-section{
-    color: #1B4884;
-    background:  #212C3B;
+/* tonos de azul 51858A 2E696F 185358 073B3F 002427 
+   Tonos de morado BCC3D7 8995B5 5F6F98 3C4D7D 213262
+   tonos de verde 55AF60 2F8F3B 177723 04580E 003807 
+   */
+
+body{
+    background: #51858A;
+    margin: 0;
+}
+
+
+
+.header{
+    background: #2E696F;
+    height: 115px;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div{
+    height: inherit;
+    margin: 0px 35px;
+}
+
+.tittle-web h6{
+    height: inherit;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 50px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    color: #002427;
+}
+
+.menu{
+    height: inherit;
+}
+
+.menu-options{
+    height: inherit;
+    display: flex;
+    list-style: none;
+    /* align-items: center; */
+    margin: 0;
+}
+
+.menu-options li {
+    height: inherit;
+}
+
+.link{
+    height: inherit;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    margin: 0px 10px;
+    color: #073B3F;
 }
