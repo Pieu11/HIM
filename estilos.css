@@ -80,7 +80,7 @@ body{
 .presentation div  h1{
     font-size: 50px;
     margin: 0px 20px 5%;
-    letter-spacing: -3px;
+    letter-spacing: -4px;
 }
 
 .presentation div h1 strong{
@@ -90,6 +90,7 @@ body{
 .presentation div h2{
     margin: 5% 20px 0px;
     font-style: italic;
+    letter-spacing: -1px;
 }
 
 .contacto{
