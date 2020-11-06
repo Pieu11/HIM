@@ -78,9 +78,10 @@ body{
 }
 
 .presentation div  h1{
-    font-size: 50px;
+    font-size: 400%;
     margin: 0px 20px 5%;
     letter-spacing: -4px;
+    line-height: 90%;
 }
 
 .presentation div h1 strong{
@@ -91,6 +92,8 @@ body{
     margin: 5% 20px 0px;
     font-style: italic;
     letter-spacing: -1px;
+    font-size: 180%;
+    line-height: 95%;
 }
 
 .contacto{
@@ -99,5 +102,6 @@ body{
 }
 
 .presentation img{
-    width: 50%;
+    width: 30%;
+    margin: 3% 12%;
 }
