@@ -8,7 +8,7 @@ body{
     margin: 0;
 }
 
-
+/* HEADER */
 
 .header{
     background: #2E696F;
@@ -60,4 +60,19 @@ body{
     letter-spacing: 1px;
     margin: 0px 10px;
     color: #073B3F;
+}
+
+/* PRESENTATION */
+
+.presentation{
+    display: flex;
+    background: white;
+}
+
+.presentation div{
+    align-self: center;
+}
+
+.presentation img{
+    width: 50%;
 }
