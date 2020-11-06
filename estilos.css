@@ -67,10 +67,33 @@ body{
 .presentation{
     display: flex;
     background: white;
+    /* height: 486px; */
 }
 
 .presentation div{
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: center;
+}
+
+.presentation div  h1{
+    font-size: 50px;
+    margin: 0px 20px 5%;
+}
+
+.presentation div h1 strong{
+    color: #2E696F;
+}
+
+.presentation div h2{
+    margin: 5% 20px 0px;
+    font-style: italic;
+}
+
+.contacto{
+    text-decoration: none;
+    color: #51858A;
 }
 
 .presentation img{
