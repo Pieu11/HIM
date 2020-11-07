@@ -67,7 +67,6 @@ body{
 .presentation{
     display: flex;
     background: white;
-    /* height: 486px; */
 }
 
 .presentation div{
@@ -105,3 +104,44 @@ body{
     width: 30%;
     margin: 3% 12%;
 }
+
+/* FOOTET */
+
+.footer{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+
+.icon{
+    height: inherit;
+    background-size: 70px;
+    width: 70px;
+    display: flex;
+    margin: 0 20px;
+}
+
+.icon a{
+    background-size: inherit;
+    width: inherit;
+    height: inherit;
+    background-repeat: no-repeat;
+
+}
+.whatsapp{
+    background-image: url('./Whatsapp.png');
+}
+
+.gmail{
+    background-image: url('./Gmail.png');
+}
+
+.facebook{
+    background-image: url('./Facebook.png');
+}
+
+.telegram{
+    background-image: url('./Telegram.png');
+}
+
