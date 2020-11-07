@@ -8,24 +8,35 @@ body{
     margin: 0;
 }
 
+.container{
+    width: 2000px;
+    border: 1px solid red;
+    margin: 0px auto;
+    justify-content: inherit;
+    display: inherit;
+    text-decoration: none;
+    height: inherit;
+}
+
 /* HEADER */
 
 .header{
     background: #2E696F;
-    height: 115px;
+    height: 100px;
     font-family: 'Anton', sans-serif;
     display: flex;
     justify-content: space-between;
+    /* margin: 0; */
 }
 
 .header div{
     height: inherit;
-    margin: 0px 35px;
+    /* margin: 0px 35px; */
 }
 
 .tittle-web h6{
     height: inherit;
-    margin: 0;
+    /* margin: 0; */
     text-transform: capitalize;
     font-size: 50px;
     text-decoration: none;
@@ -33,10 +44,12 @@ body{
     display: flex;
     align-items: center;
     color: #002427;
+    margin: 0px 35px;
 }
 
 .menu{
     height: inherit;
+    margin: 0px 35px;
 }
 
 .menu-options{
@@ -69,25 +82,26 @@ body{
     background: white;
 }
 
-.presentation div{
+.description{
     display: flex;
     flex-direction: column;
     height: inherit;
     justify-content: center;
+    margin: 0 6%;
 }
 
-.presentation div  h1{
+.presentation h1{
     font-size: 400%;
     margin: 0px 20px 5%;
     letter-spacing: -4px;
     line-height: 90%;
 }
 
-.presentation div h1 strong{
+.presentation h1 strong{
     color: #2E696F;
 }
 
-.presentation div h2{
+.presentation h2{
     margin: 5% 20px 0px;
     font-style: italic;
     letter-spacing: -1px;
@@ -105,21 +119,28 @@ body{
     margin: 3% 12%;
 }
 
-/* FOOTET */
+/* CONTACTOS */
 
-.footer{
+.contacto{
     display: flex;
-    height: 70px;
-    justify-content: center;
-    border-top: 1px solid white;
+    justify-content: space-between;
+    height: auto;
+}
+
+.iconos{
+    display: flex;
+    height: inherit;
+    justify-content: flex-end;
+    margin: 0 40px;
+    /* border-top: 1px solid white; */
 }
 
 .icon{
     height: inherit;
-    background-size: 70px;
-    width: 70px;
+    background-size: 90px;
+    width: 100px;
     display: flex;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .icon a{
@@ -144,4 +165,6 @@ body{
 .telegram{
     background-image: url('./Telegram.png');
 }
+
+/* FOOTET */
 

@@ -9,92 +9,110 @@
         </style>
         <link rel="stylesheet" href="estilos.css">
     </head>
+
     <body>
         <header class="header" id="header">
-            <div class="tittle-web">
-                <h6>Help in math</h6> 
-            </div>
-            <div>
-                <nav class="menu">
-                    <ol class="menu-options">
-                        <li>
-                            <a class="link" href="#cursos">Cursos</a>
-                        </li>
-                        <li>
-                            <a class="link" href="#practica">En practica</a>
-                        </li>
-                        <li>
-                            <a class="link" href="#contacto">Contacto</a>
-                        </li>
-                    </ol>
-                </nav>
+            <div class="container">
+                <div class="tittle-web">
+                    <h6>Help in math</h6> 
+                </div>
+                <div>
+                    <nav class="menu">
+                        <ol class="menu-options">
+                            <li>
+                                <a class="link" href="#cursos">Cursos</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#practica">En practica</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#contacto">Contacto</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
             </div>
         </header>
         <section class="presentation">
-            <div>
-                <h1>
-                    Ey, soy <strong>Valentina,</strong><br/>tu profesora de <strong>HIM.</strong><br/>
-                </h1>
-                <h2>
-                    ¿Necesitas ayuda con alguna materia que se ha vuelto difícil de entender? Nuestro
-                    trabajo es hacer tu vida académica más fácil. <br/> <a class="contacto" href="#contacto">Ponte en contacto conmigo</a>
-                </h2>
+            <div class="container">
+                <!-- <img src="logo.png" width="300"/>
+                <img src="icon-black.png" width="300"/> -->
+                <img src="HIM.jpg" width="300"/>
+                <div class="description">
+                    <h1>
+                        Ey, soy <strong>Valentina,</strong><br/>tu profesora de <strong>HIM.</strong><br/>
+                    </h1>
+                    <h2>
+                        ¿Necesitas ayuda con alguna materia que se ha vuelto difícil de entender? Nuestro
+                        trabajo es hacer tu vida académica más fácil. <br/> <a class="contacto" href="#contacto">Ponte en contacto conmigo</a>
+                    </h2>
+                </div>
             </div>
-            <img src="HIM.jpg" width="300"/>
         </section>
         <section id="cursos" class="cursos">
-            <h2>Cursos abordados</h2>
-            <article class="calculo">
-                <h3 class="tittle-curso">Calculo</h3>
-                <h6 class="content">Diferencial, Integral, Multivariable</h6>
-                <p class="state"><small><strong>Estado:</strong> Activo</small></p>
-                <p class="more"><small><strong>Más contenido en: </strong> www.HIM.com/calculo </small></p>
-                <p class="description">El calculo es una rama de la ciencia que se encarga de analizar fenomenos</p>
-            </article>
+            <div class="container">
+                <h2>Cursos abordados</h2>
+                <article class="calculo">
+                    <h3 class="tittle-curso">Calculo</h3>
+                    <h6 class="content">Diferencial, Integral, Multivariable</h6>
+                    <p class="state"><small><strong>Estado:</strong> Activo</small></p>
+                    <p class="more"><small><strong>Más contenido en: </strong> www.HIM.com/calculo </small></p>
+                    <p class="description">El calculo es una rama de la ciencia que se encarga de analizar fenomenos</p>
+                </article>
+            </div>
         </section>
         <section id="practica" class="themes-in-process">
-            <h2>Temas afines</h2>
-            <article>
-                <figure>
-                    <img/>
-                </figure>
-                <h3>Métodos numéricos</h3>
-                <p>Se abordaron temas como derivación e integración numérica</p>
-                <a href="https://latindex.org/lat/portadas/fotRev/26872.jpg" target="_blame"><strong>Ver ejemplos</strong></a>
-            </article>
+            <div class="container">
+                <h2>Temas afines</h2>
+                <article>
+                    <figure>
+                        <img/>
+                    </figure>
+                    <h3>Métodos numéricos</h3>
+                    <p>Se abordaron temas como derivación e integración numérica</p>
+                    <a href="https://latindex.org/lat/portadas/fotRev/26872.jpg" target="_blame"><strong>Ver ejemplos</strong></a>
+                </article>
+            </div>
         </section>
-        <section id="contacto">
-            <form>
-                <h3>¿En qué puedo ayudarte?</h3>
-                <input type="file" placeholder="Archivar" /><br/>
-                <input type="text" placeholder="Email">
-                <button>Enviar</button>
-            </form>
+        <section id="contacto" class="contacto">
+            <div class="container">
+                <form>
+                    <h3>¿En qué puedo ayudarte?</h3>
+                    <input type="file" placeholder="Archivar" /><br/>
+                    <input type="text" placeholder="Email">
+                    <button>Enviar</button>
+                </form>
+                <div class="iconos">
+                    <div class="icon">
+                        <a href="#header" class="whatsapp">
+                            <!-- <img src="Whatsapp.png" alt="Whatsapp"> -->
+                            <!-- <h6>Whatsapp</h6> -->
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="#header" class="gmail">
+                            <!-- <img src="Gmail.png" alt="Gmail"> -->
+                            <!-- <h6>Gmail</h6> -->
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="#header" class="facebook">
+                            <!-- <img src="Facebook.png" alt="Facebook"> -->
+                            <!-- <h6>Facebook</h6> -->
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="#header" class="telegram">
+                            <!-- <img src="Telegram.png" alt="Telegram"> -->
+                            <!-- <h6>Telegram</h6> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
         <footer class="footer">
-            <div class="icon">
-                <a href="#header" class="whatsapp">
-                    <!-- <img src="Whatsapp.png" alt="Whatsapp"> -->
-                    <!-- <h6>Whatsapp</h6> -->
-                </a>
-            </div>
-            <div class="icon">
-                <a href="#header" class="gmail">
-                    <!-- <img src="Gmail.png" alt="Gmail"> -->
-                    <!-- <h6>Gmail</h6> -->
-                </a>
-            </div>
-            <div class="icon">
-                <a href="#header" class="facebook">
-                    <!-- <img src="Facebook.png" alt="Facebook"> -->
-                    <!-- <h6>Facebook</h6> -->
-                </a>
-            </div>
-            <div class="icon">
-                <a href="#header" class="telegram">
-                    <!-- <img src="Telegram.png" alt="Telegram"> -->
-                    <!-- <h6>Telegram</h6> -->
-                </a>
+            <div class="container">
+                FOOTER
             </div>
         </footer>
     </body>
