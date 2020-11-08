@@ -22,15 +22,15 @@ body{
     text-decoration: none;
     height: inherit;
     flex-direction: inherit;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 /* HEADER */
 
 .header{
-    width: inherit;
+    width: 1000px;
     background: #2E696F;
-    height: 100px;
+    height: 70px;
     font-family: 'Anton', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -46,13 +46,13 @@ body{
     height: inherit;
     /* margin: 0; */
     text-transform: capitalize;
-    font-size: 50px;
+    font-size: 35px;
     text-decoration: none;
     letter-spacing: 4px;
     display: flex;
     align-items: center;
     color: #002427;
-    margin: 0px 35px;
+    margin: 0px 30px;
 }
 
 .menu{
@@ -89,6 +89,7 @@ body{
     display: flex;
     background: white;
     height: 350px;
+    width: 1000px;
 }
 
 .description{
@@ -116,7 +117,7 @@ body{
     margin: 10px auto 0px;
     font-style: italic;
     letter-spacing: -1px;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 20px;
 }
 
@@ -129,20 +130,20 @@ body{
 /* SECTION 1*/
 
 .cursos{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* flex-direction: column; */
     /* width: inherit;; */
     font-family: 'Open Sans Condensed', sans-serif;
     /* letter-spacing: 1px; */
 }
 
 .cursos h2{
-    /* width: inherit; */
-    /* display: flex;
-    justify-self: center; */
+    width: inherit;
+    display: flex;
+    justify-content: center;
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
-    margin: 40px auto 60px;
+    font-size: 30px;
+    margin: 30px 0 25px;
     letter-spacing: 10px;
     color: #002427;
     font-style: italic;
@@ -150,6 +151,7 @@ body{
 }
 
 .articles-cursos{
+    width: inherit;
     display: flex;
     object-fit: cover;
     flex-wrap: wrap;
@@ -157,7 +159,7 @@ body{
 }
 
 .article{
-    /* width: 700px; */
+    /* width: inherit; */
     /* height: auto; */
     margin: 20px 70px;
     border: 10px solid #002427;
