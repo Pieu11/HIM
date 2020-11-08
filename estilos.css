@@ -2,6 +2,11 @@
    Tonos de morado BCC3D7 8995B5 5F6F98 3C4D7D 213262
    tonos de verde 55AF60 2F8F3B 177723 04580E 003807 
    */
+/* FUENTES
+'Anton', sans-serif;
+'Open Sans', sans-serif
+'Open Sans Condensed', sans-serif
+*/
 
 body{
     background: #51858A;
@@ -9,18 +14,21 @@ body{
 }
 
 .container{
-    width: 2000px;
+    width: 1000px;
     border: 1px solid red;
     margin: 0px auto;
     justify-content: inherit;
     display: inherit;
     text-decoration: none;
     height: inherit;
+    flex-direction: inherit;
+    object-fit: cover;
 }
 
 /* HEADER */
 
 .header{
+    width: inherit;
     background: #2E696F;
     height: 100px;
     font-family: 'Anton', sans-serif;
@@ -80,21 +88,24 @@ body{
 .presentation{
     display: flex;
     background: white;
+    height: 350px;
 }
 
 .description{
     display: flex;
     flex-direction: column;
-    height: inherit;
+    /* height: inherit; */
     justify-content: center;
-    margin: 0 6%;
+    margin: 50px 6%;
+    padding: 0px 5px;
 }
 
 .presentation h1{
-    font-size: 400%;
-    margin: 0px 20px 5%;
-    letter-spacing: -4px;
-    line-height: 90%;
+    font-size: 300%;
+    margin: 0px auto 5%;
+    letter-spacing: -5px;
+    line-height: 43px;
+    text-align: center;
 }
 
 .presentation h1 strong{
@@ -102,21 +113,105 @@ body{
 }
 
 .presentation h2{
-    margin: 5% 20px 0px;
+    margin: 10px auto 0px;
     font-style: italic;
     letter-spacing: -1px;
-    font-size: 180%;
-    line-height: 95%;
-}
-
-.contacto{
-    text-decoration: none;
-    color: #51858A;
+    font-size: 24px;
+    line-height: 20px;
 }
 
 .presentation img{
     width: 30%;
-    margin: 3% 12%;
+    margin: 0 8%;
+    object-fit: contain;
+}
+
+/* SECTION 1*/
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    /* width: inherit;; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* letter-spacing: 1px; */
+}
+
+.cursos h2{
+    /* width: inherit; */
+    /* display: flex;
+    justify-self: center; */
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    margin: 40px auto 60px;
+    letter-spacing: 10px;
+    color: #002427;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.articles-cursos{
+    display: flex;
+    object-fit: cover;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.article{
+    /* width: 700px; */
+    /* height: auto; */
+    margin: 20px 70px;
+    border: 10px solid #002427;
+    padding: 50px 20px;
+    display: flex;
+    background: #f3f3f3;
+}
+
+.content{
+    width: 400px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.tittle-curse{
+    letter-spacing: 5px;
+    font-size: 50px;
+    margin: 0px 30px;
+    text-transform: uppercase;
+}
+
+.items{
+    /* letter-spacing: 1px; */
+    /* font-size: 20px; */
+    margin: 0px 30px;
+}
+
+.state{
+    /* letter-spacing: 2px; */
+    /* font-size: 30px; */
+    margin: 0px 30px 0;
+}
+
+.more{
+    /* letter-spacing: 3px; */
+    /* font-size: 50px; */
+    margin: 0px 30px;
+}
+
+.article strong{
+    text-transform: uppercase;
+}
+
+.article-description{
+    /* letter-spacing: 3px; */
+    /* font-size: 50px; */
+    margin: 0px 30px;
+}
+
+.article img{
+    height: 260px;
+    object-fit: cover;
+    align-self: center;
+    margin: 0 0 0 15px;
 }
 
 /* CONTACTOS */
@@ -125,6 +220,8 @@ body{
     display: flex;
     justify-content: space-between;
     height: auto;
+    text-decoration: none;
+    color: #51858A;
 }
 
 .iconos{
