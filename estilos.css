@@ -31,13 +31,11 @@ body{
 /* HEADER */
 
 .header{
-    /* width: 1000px; */
     background: #2E696F;
     height: 70px;
     font-family: 'Anton', sans-serif;
     display: flex;
     justify-content: space-between;
-    /* margin: 0; */
 }
 
 .tittle-web,
@@ -47,7 +45,6 @@ body{
 
 .tittle-web h6{
     height: inherit;
-    /* margin: 0; */
     text-transform: capitalize;
     font-size: 35px;
     text-decoration: none;
@@ -67,7 +64,6 @@ body{
     height: inherit;
     display: flex;
     list-style: none;
-    /* align-items: center; */
     margin: 0;
 }
 
@@ -90,7 +86,6 @@ body{
 /* PRESENTATION */
 
 .presentation{
-    /* width: 1000px; */
     display: flex;
     background: white;
     height: 350px;
@@ -105,7 +100,6 @@ body{
 .description{
     display: flex;
     flex-direction: column;
-    /* height: inherit; */
     justify-content: center;
     margin: 50px 6%;
     padding: 0px 5px;
@@ -138,15 +132,10 @@ body{
     background: #51858A;
     display: flex;
     flex-direction: column;
-    /* width: inherit;; */
     font-family: 'Open Sans Condensed', sans-serif;
-    /* letter-spacing: 1px; */
 }
 
 .cursos h2{
-    /* width: inherit; */
-    /* display: flex;
-    justify-self: center; */
     font-family: 'Anton', sans-serif;
     font-size: 40px;
     margin: 30px auto;
@@ -164,8 +153,6 @@ body{
 }
 
 .article{
-    /* width: 700px; */
-    /* height: auto; */
     margin: 10px auto 40px;
     border: 10px solid #002427;
     padding: 40px 20px 40px 50px;
@@ -220,7 +207,6 @@ body{
     height: inherit;
     justify-content: flex-end;
     margin: 0 40px;
-    /* border-top: 1px solid white; */
 }
 
 .icon{
@@ -236,7 +222,6 @@ body{
     width: inherit;
     height: inherit;
     background-repeat: no-repeat;
-
 }
 .whatsapp{
     background-image: url('./Whatsapp.png');
