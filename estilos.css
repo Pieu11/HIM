@@ -126,10 +126,10 @@ body{
     line-height: 20px;
 }
 
-.contacto{
+.ponte-en-contacto{
     /* display: flex; */
-    justify-content: space-between;
-    height: auto;
+    /* justify-content: space-between;
+    height: auto; */
     text-decoration: none;
     color: #51858A;
     border: 1px solid #51858A;
@@ -292,6 +292,13 @@ body{
 
 /* CONTACTOS */
 
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    /* text-decoration: none;
+    color: #51858A; */
+}
 
 .iconos{
     display: flex;
