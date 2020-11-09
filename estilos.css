@@ -13,6 +13,41 @@ body{
     margin: 0;
 }
 
+.header{
+    background: #2E696F;
+    height: 70px;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation{
+    display: flex;
+    background: white;
+    height: 350px;
+}
+
+.cursos{
+    background: #51858A;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.themes-in-process{
+    background-color: #2E696F ;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    /* text-decoration: none;
+    color: #51858A; */
+}
+
 .container{
     width: 900px;
     /* border: 1px solid red; */
@@ -29,14 +64,6 @@ body{
 }
 
 /* HEADER */
-
-.header{
-    background: #2E696F;
-    height: 70px;
-    font-family: 'Anton', sans-serif;
-    display: flex;
-    justify-content: space-between;
-}
 
 .tittle-web,
 .options-menu{
@@ -85,12 +112,6 @@ body{
 
 /* PRESENTATION */
 
-.presentation{
-    display: flex;
-    background: white;
-    height: 350px;
-}
-
 .presentation img{
     width: 30%;
     margin: 0 8%;
@@ -138,13 +159,6 @@ body{
 }
 
 /* SECTION 1 - CURSOS */
-
-.cursos{
-    background: #51858A;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
 
 .cursos h2{
     font-family: 'Anton', sans-serif;
@@ -204,12 +218,6 @@ body{
 }
 
 /* SECTION 2 - TEMAS AFINES */
-
-.themes-in-process{
-    background-color: #2E696F ;
-    display: flex;
-    flex-direction: column;
-}
 
 .themes-in-process h2{
     display: flex;
@@ -292,14 +300,6 @@ body{
 
 /* CONTACTOS */
 
-.contacto{
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    /* text-decoration: none;
-    color: #51858A; */
-}
-
 .iconos{
     display: flex;
     height: inherit;
@@ -339,3 +339,14 @@ body{
 
 /* FOOTET */
 
+
+
+
+
+/* MEDIA QUERIN */
+
+@media screen and (max-width: 728px){
+    body{
+        border: 5px solid blue;
+    }
+}
