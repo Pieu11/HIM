@@ -15,7 +15,7 @@ body{
 
 .container{
     width: 900px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px auto;
     justify-content: inherit;
     display: inherit;
