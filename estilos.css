@@ -15,7 +15,7 @@ body{
 
 .container{
     width: 900px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px auto;
     justify-content: inherit;
     display: inherit;
@@ -126,7 +126,7 @@ body{
     line-height: 20px;
 }
 
-/* SECTION 1*/
+/* SECTION 1 - CURSOS */
 
 .cursos{
     background: #51858A;
@@ -190,6 +190,76 @@ body{
     object-fit: cover;
     align-self: center;
     margin: 0;
+}
+
+/* SECTION 2 - TEMAS AFINES */
+
+.themes-in-process{
+    background-color: #3C4D7D;
+    display: flex;
+    flex-direction: column;
+}
+
+.themes-in-process h2{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.curses-in-process{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0 30px; */
+    justify-content: center;
+    /* margin: 0; */
+}
+
+.curse-in-process{
+    width: 350px;
+    border: 1px solid;
+    margin: 30px;
+    background: brown;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.curse-in-process figure{
+    margin: 0;
+    width: inherit;
+}
+
+.curse-in-process figure img{
+    width: inherit;
+}
+
+.description-themes{
+    margin: -78px 25px 30px;
+    border: 1px solid white;
+    background: inherit;
+    position: relative;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.tittle-curse-in-process{
+    margin: 0;
+    text-align: center;
+}
+
+.description-content{
+    margin: 20px 0;
+}
+
+.more-description{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    border: 3px solid #002427;
+    width: 110px;
+    padding: 10px;
+    margin: 0 auto;
+    color: inherit;
+    border-radius: 10px;
 }
 
 /* CONTACTOS */
