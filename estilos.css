@@ -111,7 +111,7 @@ body{
     margin: 0px auto 5%;
     letter-spacing: -5px;
     line-height: 43px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .presentation h1 strong{
@@ -124,6 +124,17 @@ body{
     letter-spacing: -1px;
     font-size: 24px;
     line-height: 20px;
+}
+
+.contacto{
+    /* display: flex; */
+    justify-content: space-between;
+    height: auto;
+    text-decoration: none;
+    color: #51858A;
+    border: 1px solid #51858A;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 /* SECTION 1 - CURSOS */
@@ -154,7 +165,7 @@ body{
 
 .article{
     margin: 10px auto 40px;
-    border: 10px solid #002427;
+    border: 4px solid #002427;
     padding: 40px 20px 40px 50px;
     display: flex;
     background: #f3f3f3;
@@ -162,7 +173,7 @@ body{
 }
 
 .content{
-    width: 350px;
+    width: 300px;
     font-size: 20px;
     letter-spacing: 1px;
 }
@@ -281,13 +292,6 @@ body{
 
 /* CONTACTOS */
 
-.contacto{
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    text-decoration: none;
-    color: #51858A;
-}
 
 .iconos{
     display: flex;
