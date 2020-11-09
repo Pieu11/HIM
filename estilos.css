@@ -195,7 +195,7 @@ body{
 /* SECTION 2 - TEMAS AFINES */
 
 .themes-in-process{
-    background-color: #3C4D7D;
+    background-color: #2E696F ;
     display: flex;
     flex-direction: column;
 }
@@ -204,6 +204,12 @@ body{
     display: flex;
     justify-content: center;
     margin: 15px 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: #002427;
+    font-style: italic;
+    text-transform: uppercase;
 }
 
 .curses-in-process{
@@ -215,10 +221,10 @@ body{
 }
 
 .curse-in-process{
-    width: 350px;
-    border: 1px solid;
+    width: 380px;
+    border: 1px solid #002427;
     margin: 30px;
-    background: brown;
+    background: #185358;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -233,33 +239,44 @@ body{
 }
 
 .description-themes{
-    margin: -78px 25px 30px;
-    border: 1px solid white;
+    margin: -80px 25px 30px;
+    border: 1px solid #002427;
     background: inherit;
     position: relative;
     padding: 20px 25px;
     border-radius: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 0px;
 }
 
 .tittle-curse-in-process{
     margin: 0;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: antiquewhite;
 }
 
 .description-content{
     margin: 20px 0;
+    font-size: 17px;
+    text-align: center;
+    font-style: italic;
 }
 
 .more-description{
     text-decoration: none;
     justify-content: center;
     display: flex;
-    border: 3px solid #002427;
+    border: 3px solid #073B3F;
     width: 110px;
     padding: 10px;
     margin: 0 auto;
-    color: inherit;
+    color: #073B3F;
     border-radius: 10px;
+    background: #2E696F;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 /* CONTACTOS */
