@@ -44,20 +44,22 @@ body{
     display: flex;
     justify-content: space-between;
     height: auto;
-    /* text-decoration: none;
-    color: #51858A; */
+    /* text-decoration: none;*/
+    color: #002427; 
+    background: #51858A; 
 }
 
 .container{
-    width: 900px;
-    /* border: 1px solid red; */
+    max-width: 1000px;
+    width: 100%;
+    border: 1px solid red;
     margin: 0px auto;
     justify-content: inherit;
     display: inherit;
     text-decoration: inherit;
     height: inherit;
     flex-direction: inherit;
-    object-fit: cover;
+    /* object-fit: cover; */
     background-color: inherit;
     background-size: inherit;
     background-image: inherit;
@@ -300,26 +302,79 @@ body{
 
 /* CONTACTOS */
 
+.contacto form{
+    /* border: 1px solid blue; */
+    font-family: 'Anton';
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 110px 20px;
+}
+
+.archivo{
+    /* border: 1px solid blue; */
+    font-family: inherit;
+    /* height: 35px; */
+}
+
+.contacto form h3{
+    margin: 0 0 25px;
+}
+
+.email{
+    background-image: url('email.png');
+    height: 20px;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: center;
+    padding: 0 30px;
+    width: 150px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin: 15px 0 0;
+    border: 2px solid #002427;
+    border-radius: 6px;
+}
+
+.button-file{
+    width: 100px;
+    height: 30px;
+    border: 2px solid #002427;
+    border-radius: 15px;
+    font-family: 'Open Sans Condensed';
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+}
+
 .iconos{
     display: flex;
-    height: inherit;
-    justify-content: flex-end;
+    /* height: inherit; */
+    /* justify-content: flex-end; */
     margin: 0 40px;
+    /* border: 1px solid blue; */
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
 }
 
 .icon{
-    height: inherit;
-    background-size: 90px;
+    height: 100px;
+    background-size: 70px;
     width: 100px;
     display: flex;
-    margin: 0 10px;
+    /* margin: 0 10px; */
+    align-self: center;
 }
 
 .icon a{
     background-size: inherit;
     width: inherit;
-    height: inherit;
+    /* height: inherit; */
     background-repeat: no-repeat;
+    background-position: center;
 }
 .whatsapp{
     background-image: url('./Whatsapp.png');
@@ -339,7 +394,9 @@ body{
 
 /* FOOTET */
 
-
+.footer{
+    border: 1px solid red;
+}
 
 
 
