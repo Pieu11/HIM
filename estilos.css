@@ -52,7 +52,7 @@ body{
 .container{
     max-width: 1000px;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px auto;
     justify-content: inherit;
     display: inherit;
@@ -396,9 +396,32 @@ body{
 
 .footer{
     border: 1px solid red;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background: #002427;
+    color: antiquewhite;
+    /* height: 60px; */
 }
 
+.MenuLayout{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
 
+.MenuItem{
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.LoveLayout{
+    margin-right: 20px;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 
 /* MEDIA QUERIN */
 
