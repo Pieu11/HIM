@@ -52,7 +52,7 @@ body{
 .container{
     max-width: 1000px;
     width: 100%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0px auto;
     justify-content: inherit;
     display: inherit;
@@ -303,7 +303,7 @@ body{
 /* CONTACTOS */
 
 .contacto form{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     font-family: 'Anton';
     font-size: 20px;
     text-align: center;
@@ -358,6 +358,7 @@ body{
     max-width: 500px;
     width: 100%;
     justify-content: center;
+    border: 1px solid white;
 }
 
 .icon{
@@ -395,7 +396,7 @@ body{
 /* FOOTET */
 
 .footer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -408,6 +409,7 @@ body{
     display: flex;
     align-items: center;
     margin-left: 20px;
+    border: 1px solid white;
 }
 
 .MenuItem{
@@ -421,12 +423,109 @@ body{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
+    border: 1px solid white;
 }
 
 /* MEDIA QUERIN */
 
-@media screen and (max-width: 728px){
+@media screen and (max-width: 1001px){
+    .container{
+        max-width: 99vw;
+        width: 100%;
+    }
+    
+    .cursos{
+        /* Ajustar tamaño */
+    }
+
+    .curse-in-process{
+        /* Ajustar tamaño */
+    }
+
+    .contacto form{
+        /* cambiar a porcentajes */
+        margin-right: 4vw;
+        margin-left: 10vw;
+    }
+
+    .iconos{
+        margin: 0 4vw 0 9vw;
+        border: 1px solid blue;
+        max-width: 45vw;
+        /* width: 100%; */
+        /* justify-content: center; */
+    }
+
+    .icon{
+        height: 10.6vw;
+        background-size: 7vw;
+        width: 10.6vw;
+        border: 1px solid;
+    }
+}
+
+@media screen and (max-width: 833px){
+    .presentation{
+        /* se rompe la presentación */
+    }
+
+    .contacto form{
+        margin-right: 0;
+    }
+
+    .iconos{
+        margin-left: 9vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    
+    .MenuLayout{
+        justify-content: center;
+    }
+
+    .LoveLayout,
+    .MenuLayout{
+        margin: 15px 0;
+    }
+
+    .icon{
+        background-size: 8vw;
+    }
+}
+
+
+/* @media screen and (max-width: 728px){
     body{
-        border: 5px solid blue;
+        /* border: 5px solid blue;
+    }
+} */
+
+@media screen and (max-width: 699px){
+    .header{
+        /* Se rompe el header */
+    }
+
+    .contacto{
+        display: block;
+    }
+
+    .contacto form{
+        /* cambiar a porcentajes */
+        margin: 20px 16.45vw;
+    }
+
+    .iconos{
+        margin: 20px auto;
+    }
+
+    .icon{
+        height: 10vw;
+        background-size: 8vw;
+        width: 10vw;
     }
 }
