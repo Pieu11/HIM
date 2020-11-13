@@ -1,6 +1,6 @@
 menu = document.querySelector('.menu');
 icon = document.querySelector('.icon-menu');
-anchor = window.matchMedia('screen and (max-width: 699px)');
+anchor = window.matchMedia('screen and (max-width: 710px)');
 
 validation(anchor.matches);
 anchor.addListener(validation);
