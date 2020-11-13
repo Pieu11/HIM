@@ -536,17 +536,45 @@ body{
 }
 
 @media screen and (max-width: 833px){
+
     .presentation{
+        height: 40vw;
+    }
+    .presentation img{
+        width: 25vw;
+        margin: 0 5vw;
+        /* object-fit: contain; */
+    }
+    
+    .description{
+        /* display: block; */
+        margin: 40px 6vw;
+        padding: 0px;
+    }
+
+    .presentation h1{
+        font-size: 6vw;
+        margin: 0px auto 2vw;
+        letter-spacing: -.1em;
+        line-height: .87em;
+    }
+
+    .presentation h2{
+        margin: 0;
+        /* font-style: italic; */
+        letter-spacing: -.06em;
+        font-size: 3vw;
+        line-height: .85em;
+    }
+        
         /* se rompe la presentación */
-    }
+        .contacto form{
+            margin-right: 0;
+        }
 
-    .contacto form{
-        margin-right: 0;
-    }
-
-    .iconos{
-        margin-left: 9vw;
-    }
+        .iconos{
+            margin-left: 9vw;
+        }
 }
 
 @media screen and (max-width: 768px){
@@ -592,14 +620,7 @@ body{
         display: block;
         z-index: 2;
     }
-    
-    .options-menu{
-        /* height: inherit; */
-        /* display: inline-block; */
-        /* list-style: none; */
-        /* margin: 0; */
-    }
-    
+       
     .menu{
         /* display: block; */
         height: 100vh;
