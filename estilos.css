@@ -96,7 +96,7 @@ body{
 .container{
     max-width: 1000px;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px auto;
     justify-content: inherit;
     display: inherit;
