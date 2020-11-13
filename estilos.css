@@ -8,6 +8,50 @@
 'Open Sans Condensed', sans-serif
 */
 
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?g59m4');
+    src:  url('fonts/icomoon.eot?g59m4#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?g59m4') format('truetype'),
+      url('fonts/icomoon.woff?g59m4') format('woff'),
+      url('fonts/icomoon.svg?g59m4#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+  
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.icon-menu:before {
+    content: "\e900";
+}
+
+.icon-menu{
+    display: none;
+    position: fixed;
+    background: rgba(7, 59, 63, .9);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+}
+
 body{
     /* background: #51858A; */
     margin: 0;
@@ -67,8 +111,7 @@ body{
 
 /* HEADER */
 
-.tittle-web,
-.options-menu{
+.tittle-web{
     height: inherit;
 }
 
@@ -303,7 +346,7 @@ body{
 /* CONTACTOS */
 
 .contacto form{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-family: 'Anton';
     font-size: 20px;
     text-align: center;
@@ -358,7 +401,7 @@ body{
     max-width: 500px;
     width: 100%;
     justify-content: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .icon{
@@ -409,7 +452,7 @@ body{
     display: flex;
     align-items: center;
     margin-left: 20px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .MenuItem{
@@ -423,19 +466,47 @@ body{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 /* MEDIA QUERIN */
 
 @media screen and (max-width: 1001px){
+    .cursos{
+        /* Ajustar tamaño */
+    }
+    
+    /* .presentation{
+
+    } */
+
     .container{
         max-width: 99vw;
         width: 100%;
     }
     
-    .cursos{
-        /* Ajustar tamaño */
+    .description{
+        margin: 0 6vw;
+        padding: 0px;
+    }
+
+    .presentation h1{
+        font-size: 5vw;
+        margin: 0px auto 5%;
+        letter-spacing: -5px;
+        line-height: 43px;
+    }
+    
+    .presentation h2{
+        margin: 10px auto 0px;
+        letter-spacing: -1px;
+        font-size: 24px;
+        line-height: 20px;
+    }
+    
+    .ponte-en-contacto{
+        padding: 5px 10px;
+        border-radius: 10px;
     }
 
     .curse-in-process{
@@ -450,7 +521,7 @@ body{
 
     .iconos{
         margin: 0 4vw 0 9vw;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         max-width: 45vw;
         /* width: 100%; */
         /* justify-content: center; */
@@ -460,7 +531,7 @@ body{
         height: 10.6vw;
         background-size: 7vw;
         width: 10.6vw;
-        border: 1px solid;
+        /* border: 1px solid; */
     }
 }
 
@@ -492,7 +563,7 @@ body{
     .MenuLayout{
         margin: 15px 0;
     }
-
+    
     .icon{
         background-size: 8vw;
     }
@@ -508,7 +579,71 @@ body{
 @media screen and (max-width: 699px){
     .header{
         /* Se rompe el header */
+        display: block;
+        text-align: center;
     }
+    
+    .tittle-web h6{
+        display: block;
+        line-height: 70px;
+    }
+    
+    .icon-menu{
+        display: block;
+        z-index: 2;
+    }
+    
+    .options-menu{
+        /* height: inherit; */
+        /* display: inline-block; */
+        /* list-style: none; */
+        /* margin: 0; */
+    }
+    
+    .menu{
+        /* display: block; */
+        height: 100vh;
+        width: 40vw;
+        position: fixed;
+        /* width: inherit; */
+        top: 0;
+        left: -40vw;
+        /* background: rgba(255, 0, 0, .5); */
+        background: rgba(7, 59, 63, .7);
+        /* height: 20hv; */
+        margin: 0px;
+        padding-top: 40px;
+        z-index: 1;
+    }
+
+    .menu.click{
+        left: 0;
+    }
+    
+    .menu-options{
+        display: inline;
+        /* width: inherit; */
+        /* margin: 5px auto; */
+    }
+    
+    .menu-options li {
+        /* width: inherit; */
+        height: auto;
+        margin: 0 0 20px;
+    }
+    
+    .link{
+        color: wheat;
+        /* height: inherit; */
+        /* width: inherit; */
+        /* font-size: 20px; */
+        /* text-decoration: none; */
+        display: inline;
+        /* align-items: center;
+        letter-spacing: 1px; */
+        /* margin: 0px 10px; */
+        /* color: #073B3F; */
+    }   
 
     .contacto{
         display: block;
